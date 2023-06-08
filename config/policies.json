@@ -12,6 +12,14 @@
       },
       "name": "remove-query-params-inbound",
       "policyType": "remove-query-params-inbound"
+    },
+    {
+      "handler": {
+        "export": "default",
+        "module": "$import(./modules/api-check)"
+      },
+      "name": "custom-code-inbound",
+      "policyType": "custom-code-inbound"
     }
   ]
 }

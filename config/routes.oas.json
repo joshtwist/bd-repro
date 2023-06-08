@@ -23,7 +23,7 @@
           },
           "policies": {
             "inbound": [
-              "remove-query-params-inbound"
+              "custom-code-inbound"
             ]
           }
         },
