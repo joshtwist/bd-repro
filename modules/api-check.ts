@@ -10,7 +10,7 @@ export default async function (
   policyName: string
 ) {
 
-  const throwAwaryRequest = new ZuploRequest(request.url, request);
+  const throwAwaryRequest = new ZuploRequest(request);
 
   return request;
 }
